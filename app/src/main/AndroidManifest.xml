@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
 
+        <!--registering the broadcast receiver java class-->
         <receiver android:name=".PhoneReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE"/>
